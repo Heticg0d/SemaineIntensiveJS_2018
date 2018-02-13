@@ -1,3 +1,33 @@
+#facebook
+{
+	float: left;
+}
 
+body
+{
+	/*background-color: #999999;*/
+	/*background-image:url(../images/coussin_vide.png);*/
+	position:relative;
+}
+#coussin
+{
+	background-image:url('../images/coussin_vide.png');
+	/*background-color: black;*/
+	background-size: 500px;
+	min-width:500px;
+	min-height:300px;
+	max-width:500px;
+	max-height:300px;
+	color: red;
+	border: 3px solid black;
+	position:relative;
+}
 
 /*# sourceMappingURL=style.css.map */
+h5
+{
+	position:absolute;
+	bottom:-10px;
+	left: 25%;
+	color: red;
+}

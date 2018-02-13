@@ -1,6 +1,33 @@
 #facebook
 {
+	display: flex;
+	justify-content: center;
+
+}
+
+#cale_haut
+{
+	background-color: red;
+	opacity: 0.8;
+	width: 300px;
+	height: 130px;
+}
+#cale_gauche
+{
+	clear: both;
 	float: left;
+	background-color: red;
+	opacity: 0.8;
+	width: 55px;
+	height: 130px;
+}
+#cale_droite
+{
+	float:right;
+	background-color: red;
+	opacity: 0.8;
+	width: 55px;
+	height: 130px;
 }
 
 body
@@ -11,16 +38,21 @@ body
 }
 #coussin
 {
+	margin:0 auto;
 	background-image:url('../images/coussin_vide.png');
 	/*background-color: black;*/
-	background-size: 500px;
-	min-width:500px;
-	min-height:300px;
-	max-width:500px;
-	max-height:300px;
+	background-size: 650px;
+	min-width:650px;
+	min-height:400px;
+	max-width:650px;
+	max-height:400px;
 	color: red;
 	border: 3px solid black;
 	position:relative;
+	text-align:center;
+	/*vertical-align: middle;*/
+	/*display: flex;*/
+    /*justify-content: space-between;*/
 }
 
 /*# sourceMappingURL=style.css.map */

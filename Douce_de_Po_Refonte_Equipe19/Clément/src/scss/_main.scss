@@ -1,7 +1,7 @@
 // @Author: Clem
 // @Date:   2018-02-13T11:40:41+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-13T22:49:25+01:00
+// @Last modified time: 2018-02-14T11:57:39+01:00
 
 * {
   box-sizing: border-box;
@@ -21,14 +21,19 @@ body{
   margin: 0px auto;
 }
 
-button{
+.button_width{
+  width: 200px;
+  margin: auto;
+}
+
+.button{
   font-size: $text-size-main;
   border: 1px solid $secondary-color;
   border-radius: 50px;
   background-color: $secondary-color;
   padding: 10px 20px;
   color: white;
-  margin: 2% 0%;
+  margin: 30% auto 0% auto;
 
   &:hover{
     border: 1px solid $secondary-color;

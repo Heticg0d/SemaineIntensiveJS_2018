@@ -6,21 +6,25 @@ html {
 
 body {
   background-color: white;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Nunito", sans-serif; }
 
 .container {
   width: 90%;
   margin: 0px auto; }
 
-button {
+.button_width {
+  width: 200px;
+  margin: auto; }
+
+.button {
   font-size: 1.5em;
   border: 1px solid #98cac9;
   border-radius: 50px;
   background-color: #98cac9;
   padding: 10px 20px;
   color: white;
-  margin: 2% 0%; }
-  button:hover {
+  margin: 30% auto 0% auto; }
+  .button:hover {
     border: 1px solid #98cac9;
     color: #98cac9;
     background-color: white; }
@@ -33,6 +37,9 @@ hr {
   height: 3px;
   margin-bottom: 2%;
   background-color: black; }
+
+.menu_logo_doucedepo li {
+  list-style: none; }
 
 .menu {
   padding: 2% 0%;
@@ -69,21 +76,25 @@ hr {
   position: relative; }
 
 .absolute {
-  position: absolute;
-  top: 0;
-  left: 0; }
+  position: absolute; }
 
-.article_product {
+.article_product .article_product_content {
+  margin-top: 50px; }
+.article_product h3 {
+  font-size: 4em;
+  margin: 4% 0% 0% 0%;
+  text-align: center;
+  font-family: "Sacramento", cursive;
   background-color: #fde5ea; }
-  .article_product h3 {
-    font-size: 4em;
-    margin: 4% 0% 0% 0%;
-    text-align: center;
-    font-family: "Sacramento", cursive; }
-  .article_product p {
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 3%; }
+.article_product h4 {
+  margin: 0;
+  font-size: 4em;
+  font-family: "Sacramento", cursive; }
+.article_product p {
+  font-size: 1.5em;
+  margin: 0; }
+.article_product .button_product {
+  margin-top: 30px; }
 
 .article_values {
   width: 40%;
@@ -108,30 +119,8 @@ hr {
   margin: 6% 0% 0% 0%;
   text-align: center;
   font-family: "Sacramento", cursive; }
-.article_flux_instagram .style_prevu_kit {
-  display: inline-block;
-  border: 0;
-  width: 196px;
-  height: 210px;
-  position: rel1ative;
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1);
-  transition: all 200ms ease-in;
-  transform: scale(1); }
-.article_flux_instagram .style_prevu_kit:hover {
-  box-shadow: 0px 0px 150px #000000;
-  z-index: 2;
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1.5);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1.5);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1.5);
-  transition: all 200ms ease-in;
-  transform: scale(1.5); }
+.article_flux_instagram .insta_hover:hover {
+  transform: scale(1.1);
+  transition: all 0.5s; }
 
 /*# sourceMappingURL=style.css.map */

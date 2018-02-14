@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  width: 90%;
+  margin: 0px auto; }
+
+button {
+  font-size: 1.5em;
+  border: 1px solid #98cac9;
+  border-radius: 50px;
+  background-color: #98cac9;
+  padding: 10px 20px;
+  color: white;
+  margin: 2% 0%; }
+  button:hover {
+    border: 1px solid #98cac9;
+    color: #98cac9;
+    background-color: white; }
+
+a {
+  color: inherit; }
+
+hr {
+  width: 20px;
+  height: 3px;
+  margin-bottom: 2%;
+  background-color: black; }
+
+.menu {
+  padding: 2% 0%;
+  margin: 0 auto; }
+  .menu li a {
+    font-size: 1.5em;
+    color: black; }
+    .menu li a:hover {
+      color: inherit; }
+
+.footer_bar_top h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 4em;
+  margin-top: 30%;
+  background-color: #fde5ea; }
+
+.footer_bar_content li {
+  font-size: 1.5em;
+  list-style: none; }
+.footer_bar_content label {
+  font-size: 1.5em; }
+.footer_bar_content input {
+  height: 30px;
+  border: 1px solid #fde5ea; }
+
+.footer_socialnetwork {
+  display: inline-block; }
+
+.footer_bottom_info {
+  margin-top: 5%;
+  font-size: 1em; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.article_product {
+  background-color: #fde5ea; }
+  .article_product h3 {
+    font-size: 4em;
+    margin: 4% 0% 0% 0%;
+    text-align: center;
+    font-family: "Sacramento", cursive; }
+  .article_product p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 3%; }
+
+.article_values {
+  width: 40%;
+  margin: 5% auto; }
+  .article_values p {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2%; }
+
+.article_personalisation h3 {
+  font-size: 4em;
+  margin: 6% 0% 0% 0%;
+  text-align: center;
+  font-family: "Sacramento", cursive; }
+.article_personalisation p {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 3%; }
+
+.article_flux_instagram h3 {
+  font-size: 4em;
+  margin: 6% 0% 0% 0%;
+  text-align: center;
+  font-family: "Sacramento", cursive; }
+
+/*# sourceMappingURL=app.css.map */

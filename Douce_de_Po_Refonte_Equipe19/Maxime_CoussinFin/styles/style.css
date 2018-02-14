@@ -1,0 +1,84 @@
+#hand
+{
+	margin-left: 250px;
+	margin-top: -80px;
+	float:left;
+	transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    visibility: none;
+    clear:both;
+    z-index: 2;
+}
+
+#hand:hover
+{
+	transform: translateX(200px);
+}
+
+#letter
+{
+	 opacity: 0.7;
+	 z-index: 1;
+   
+}
+#facebook
+{
+	display: flex;
+	justify-content: center;
+}
+
+#cale_haut
+{
+	/*background-color: red;*/
+	opacity: 0.8;
+	width: 300px;
+	height: 130px;
+}
+#cale_gauche
+{
+	clear: both;
+	float: left;
+	/*background-color: red;*/
+	opacity: 0.8;
+	width: 55px;
+	height: 130px;
+}
+#cale_droite
+{
+	float:right;
+/*	background-color: red;*/
+	opacity: 0.8;
+	width: 55px;
+	height: 130px;
+}
+
+body
+{
+	
+	position:relative;
+}
+#coussin
+{
+	margin:0 auto;
+	background-image:url('../images/coussin_vide.png');
+	
+	background-size: 650px;
+	min-width:650px;
+	min-height:400px;
+	max-width:650px;
+	max-height:400px;
+	color: red;
+	border: 3px solid black;
+	position:relative;
+	text-align:center;
+}
+
+/*# sourceMappingURL=style.css.map */
+h5
+{
+	position:absolute;
+	bottom:-10px;
+	left: 25%;
+	color: red;
+}

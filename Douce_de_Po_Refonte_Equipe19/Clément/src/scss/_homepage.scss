@@ -1,0 +1,75 @@
+// @Author: Clem
+// @Date:   2018-02-13T11:41:04+01:00
+// @Last modified by:   Clem
+// @Last modified time: 2018-02-14T16:04:42+01:00
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.article_product{
+  .article_product_content{
+    margin-top: 50px;
+  }
+  h3{
+    font-size: $text-size-title;
+    margin: 4% 0% 0% 0%;
+    text-align: center;
+    font-family: $serif;
+    background-color: $primary-color;
+  }
+  h4{
+    margin:0;
+    font-size: $text-size-title;
+    font-family: $serif;
+  }
+  p{
+    font-size: $text-size-main;
+    margin: 0;
+  }
+  .button_product{
+    margin-top: 30px;
+  }
+}
+
+.article_values{
+  width: 40%;
+  margin: 5% auto;
+
+  p{
+    font-size: $text-size-main;
+    text-align: center;
+    padding: 2%;
+  }
+}
+
+.article_personalisation{
+  h3{
+    font-size: $text-size-title;
+    margin: 6% 0% 0% 0%;
+    text-align: center;
+    font-family: $serif;
+  }
+  p{
+    font-size: $text-size-main;
+    text-align: center;
+    margin-top: 3%;
+  }
+}
+
+.article_flux_instagram{
+  h3{
+    font-size: $text-size-title;
+    margin: 6% 0% 0% 0%;
+    text-align: center;
+    font-family: $serif;
+  }
+  .insta_hover:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+}

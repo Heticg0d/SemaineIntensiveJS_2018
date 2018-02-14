@@ -1,56 +1,94 @@
-body {
-  width: 1050px; }
-  body .collections {
-    text-decoration: none;
-    border: 2px solid black;
+body .pagePanier {
+  margin-left: -100px;
+  margin-top: -20px;
+  font-size: 70%;
+  height: 20px;
+  background-image: linear-gradient(#EEEEFF, #FFFFFF);
+  z-index: 1000; }
+body #number {
+  width: 10px;
+  height: 20px;
+  font-size: 13px;
+  margin-top: 40px; }
+body #art {
+  width: 100px;
+  height: 20px;
+  font-size: 12px;
+  margin-left: 12px;
+  margin-top: -17px; }
+body button {
+  background: none !important;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  /*border is optional*/
+  border-bottom: 1px solid #444;
+  cursor: pointer; }
+body .container {
+  width: 1010px;
+  height: 2000px;
+  margin: auto; }
+body .collections {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 300px;
+  margin-left: 30px;
+  font-family: 'Open Sans', sans-serif;
+  float: left; }
+body #cesure {
+  position: relative;
+  top: -12px;
+  width: 200px;
+  height: 2px;
+  background-color: black; }
+body #prix {
+  opacity: 0.5;
+  font-size: 12px;
+  margin-top: -10px;
+  display: flex;
+  justify-content: center; }
+body .products {
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 750px;
+  height: 900px;
+  float: right; }
+  body .products .lapage {
+    margin-top: -50px; }
+  body .products img {
     display: flex;
-    flex-direction: column;
-    width: 220px;
-    height: 250px;
-    margin-left: 30px;
-    font-family: 'Open Sans', sans-serif;
-    float: left; }
-  body #cesure {
-    position: relative;
-    top: -12px;
-    width: 200px;
-    height: 2px;
-    background-color: black; }
-  body #prix {
-    opacity: 0.5;
-    font-size: 12px;
-    margin-top: -10px;
-    display: flex;
-    justify-content: center; }
-  body .products {
-    border: 3px solid red;
-    font-family: 'Sacramento', cursive;
-    font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 750px;
-    height: 900px;
-    float: right; }
-    body .products img {
-      display: flex;
-      justify-content: center;
-      height: auto;
-      width: 60%;
-      margin: auto; }
-    body .products #titre {
-      margin: 10px; }
-    body .products #bavoirN2 {
-      margin-left: 20px; }
-    body .products #bavoirN1 {
-      margin-left: 25px; }
-    body .products #toudouxLapinou {
-      margin-top: -11px; }
-    body .products #ProtegeCarnet {
-      margin-top: -20px; }
-    body .products #tapisALanger {
-      margin-top: 20px; }
-    body .products #oiseauMusical {
-      margin-top: 23px;
-      margin-left: 20px; }
+    justify-content: center;
+    height: auto;
+    width: 60%;
+    margin: auto;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer; }
+  body .products img:hover {
+    opacity: 0.8; }
+  body .products .item {
+    height: 240px; }
+  body .products #titre {
+    margin: 10px; }
+  body .products #bavoirN2 {
+    margin-left: 20px; }
+  body .products #bavoirN1 {
+    margin-left: 25px; }
+  body .products #toudouxLapinou {
+    margin-top: -4px; }
+  body .products #ProtegeCarnet {
+    margin-top: -25px;
+    margin-right: -8px; }
+  body .products #tapisALanger {
+    margin-top: 20px; }
+  body .products #oiseauMusical {
+    margin-top: 23px;
+    margin-left: 10px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,19 +1,55 @@
-//font-family: 'Sacramento', cursive;
-//font-family: 'Open Sans', sans-serif;
-// rose fde5ea
-// 98cac9 bleu
-
 body
 {
-	width:1050px;
+
+	.pagePanier
+	{
+		margin-left: -100px;
+		margin-top: -20px;
+		font-size: 70%;
+		height:20px;
+		background-image:linear-gradient(#EEEEFF, #FFFFFF);
+		z-index:1000
+	}
+	
+	#number
+	{
+		width:10px;
+		height:20px;
+		font-size: 13px;
+		margin-top:40px;
+	}
+	#art
+	{
+		width:100px;
+		height:20px;
+		font-size: 12px;
+		margin-left:12px;
+		margin-top: -17px;
+	}
+	button 
+	{
+    	background:none!important;
+    	color:inherit;
+    	border:none; 
+    	padding:0!important;
+    	font: inherit;
+    	/*border is optional*/
+    	border-bottom:1px solid #444; 
+    	cursor: pointer;
+	}
+	.container
+	{
+		width:1010px;
+		height:2000px;
+		margin: auto;
+	}
 	.collections
 	{
 		text-decoration:none;
-		border: 2px solid black;
 		display: flex;
 		flex-direction: column;
 		width:220px;
-		height:250px;
+		height:300px;
 		margin-left:30px;
 		font-family: 'Open Sans', sans-serif;
 		float: left;
@@ -38,26 +74,37 @@ body
 		
 	.products
 	{
-		border : 3px solid red;
-		font-family: 'Sacramento', cursive;
-		font-size: 20px;
+		margin-top: 30px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
 		display:flex;
 		flex-wrap:wrap;
 		width:750px;
 		height: 900px;
 		float:right;
 		
-		img 
+		.lapage
+		{
+			margin-top:-50px;
+		}
+		img
 		{
    			display:flex;
 			justify-content: center;
    			height: auto;
    			width: 60%;
    			margin: auto;
+   			transition: 0.3s;
+   			border-radius: 5px;
+   			cursor: pointer;
+		}
+		img:hover
+		{
+			opacity:0.8;
 		}
 		.item
 		{
-			
+			height: 240px;
 		}
 		#titre
 		{
@@ -74,11 +121,12 @@ body
 		}
 		#toudouxLapinou
 		{
-			margin-top: -11px;
+			margin-top: -4px;
 		}
 		#ProtegeCarnet
 		{
-			margin-top: -20px;
+			margin-top: -25px;
+			margin-right: -8px;
 		}
 		#tapisALanger
 		{
@@ -87,7 +135,7 @@ body
 		#oiseauMusical
 		{
 			margin-top: 23px;
-			margin-left: 20px;
+			margin-left: 10px;
 		}
 	}
 }

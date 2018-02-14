@@ -1,0 +1,19 @@
+// @Author: Clem
+// @Date:   2018-02-13T12:30:37+01:00
+// @Last modified by:   Clem
+// @Last modified time: 2018-02-13T22:25:45+01:00
+
+.menu {
+    padding: 2% 0%;
+    margin: 0 auto;
+  li{
+    a{
+      font-size: $text-size-main;
+      color: black;
+
+      &:hover{
+        color: inherit;
+      }
+    }
+  }
+}

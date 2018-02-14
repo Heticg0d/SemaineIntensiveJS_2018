@@ -1,22 +1,56 @@
-body .collections {
-  text-decoration: none;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  width: 220px;
-  height: 250px;
-  margin-left: 30px;
-  font-family: 'Open Sans', sans-serif; }
-body #cesure {
-  position: relative;
-  top: -12px;
-  width: 200px;
-  height: 2px;
-  background-color: black; }
-body #prix {
-  opacity: 0.5; }
-body .products {
-  display: flex;
-  flex-wrap: wrap; }
+body {
+  width: 1050px; }
+  body .collections {
+    text-decoration: none;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 250px;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    float: left; }
+  body #cesure {
+    position: relative;
+    top: -12px;
+    width: 200px;
+    height: 2px;
+    background-color: black; }
+  body #prix {
+    opacity: 0.5;
+    font-size: 12px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center; }
+  body .products {
+    border: 3px solid red;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 900px;
+    float: right; }
+    body .products img {
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 60%;
+      margin: auto; }
+    body .products #titre {
+      margin: 10px; }
+    body .products #bavoirN2 {
+      margin-left: 20px; }
+    body .products #bavoirN1 {
+      margin-left: 25px; }
+    body .products #toudouxLapinou {
+      margin-top: -11px; }
+    body .products #ProtegeCarnet {
+      margin-top: -20px; }
+    body .products #tapisALanger {
+      margin-top: 20px; }
+    body .products #oiseauMusical {
+      margin-top: 23px;
+      margin-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@ body .pagePanier {
   font-size: 70%;
   height: 20px;
   background-image: linear-gradient(#EEEEFF, #FFFFFF);
-  z-index: 1000; }
+  z-index: 2; }
 body #number {
   width: 10px;
   height: 20px;

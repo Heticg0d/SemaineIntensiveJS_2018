@@ -1,0 +1,38 @@
+//font-family: 'Sacramento', cursive;
+//font-family: 'Open Sans', sans-serif;
+// rose fde5ea
+// 98cac9 bleu
+
+body
+{
+	.collections
+	{
+		text-decoration:none;
+		border: 2px solid black;
+		display: flex;
+		flex-direction: column;
+		width:220px;
+		height:250px;
+		margin-left:30px;
+		font-family: 'Open Sans', sans-serif;
+	}	
+	#cesure
+	{
+			position : relative;
+			top:-12px;
+			width:200px;
+			height:2px;
+			background-color:black;
+	}
+		
+	#prix
+	{
+			opacity:0.5;
+	}
+		
+	.products
+	{
+		display:flex;
+		flex-wrap:wrap;
+	}
+}

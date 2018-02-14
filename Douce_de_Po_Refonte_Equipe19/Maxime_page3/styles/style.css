@@ -1,3 +1,22 @@
-
+body .collections {
+  text-decoration: none;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 250px;
+  margin-left: 30px;
+  font-family: 'Open Sans', sans-serif; }
+body #cesure {
+  position: relative;
+  top: -12px;
+  width: 200px;
+  height: 2px;
+  background-color: black; }
+body #prix {
+  opacity: 0.5; }
+body .products {
+  display: flex;
+  flex-wrap: wrap; }
 
 /*# sourceMappingURL=style.css.map */

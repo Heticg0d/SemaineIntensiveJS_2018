@@ -94,10 +94,12 @@ footer {
   display: inline-block;
   width: 15%;
   margin-top: 10px;
-  padding-right: 5%; }
+  padding-right: 1%; }
+
+.footer_logo_blog {
+  margin-top: 7%; }
 
 .footer_bottom_info {
-  margin-top: 5%;
   font-size: 1em; }
 
 .footer_arrow_up {
@@ -111,8 +113,9 @@ footer {
 
 .absolute {
   position: absolute;
+  text-align: center;
   top: 175px;
-  left: 525px; }
+  left: 400px; }
 
 .article_product .article_product_content {
   margin-top: 50px; }
@@ -125,7 +128,7 @@ footer {
 .article_product h4 {
   margin: 0;
   font-size: 4em;
-  font-family: "Sacramento", cursive; }
+  font-family: "Nunito", sans-serif; }
 .article_product p {
   font-size: 1.5em;
   margin: 0; }
@@ -223,7 +226,7 @@ footer {
     font-size: 4em;
     font-family: "Sacramento", cursive;
     margin: 100px 0px;
-    padding: 0px 20px; }
+    padding: 100px 0px 0px 20px; }
 
 h3.name_title_square {
   font-family: "Sacramento", cursive;

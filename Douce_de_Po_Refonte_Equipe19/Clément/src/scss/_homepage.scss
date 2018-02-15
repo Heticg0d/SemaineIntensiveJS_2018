@@ -1,7 +1,7 @@
 // @Author: Clem
 // @Date:   2018-02-13T11:41:04+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-15T13:17:29+01:00
+// @Last modified time: 2018-02-15T15:31:45+01:00
 
 .relative{
   position: relative;
@@ -9,8 +9,9 @@
 
 .absolute{
   position: absolute;
+  text-align: center;
   top: 175px;
-  left: 525px;
+  left: 400px;
 }
 
 .article_product{
@@ -27,7 +28,7 @@
   h4{
     margin:0;
     font-size: $text-size-title;
-    font-family: $serif;
+    font-family: $sans-serif;
   }
   p{
     font-size: $text-size-main;

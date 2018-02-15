@@ -1,7 +1,7 @@
 // @Author: Clem
 // @Date:   2018-02-13T21:27:19+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-15T10:50:18+01:00
+// @Last modified time: 2018-02-15T15:53:09+01:00
 
 footer{
   position: relative;
@@ -42,11 +42,14 @@ footer{
   display: inline-block;
   width: 15%;
   margin-top: 10px;
-  padding-right: 5%;
+  padding-right: 1%;
+}
+
+.footer_logo_blog{
+  margin-top: 7%;
 }
 
 .footer_bottom_info{
-  margin-top: 5%;
   font-size: 1em;
 }
 

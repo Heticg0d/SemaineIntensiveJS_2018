@@ -1,0 +1,37 @@
+// @Author: Clem
+// @Date:   2018-02-14T23:35:13+01:00
+// @Last modified by:   Clem
+// @Last modified time: 2018-02-15T02:00:42+01:00
+
+
+
+.history_top_content{
+  background: url("../images/baby_background.png") no-repeat;
+  background-size: cover;
+
+  h1{
+    font-family: $serif;
+    font-size: 9em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+    font-size: $text-size-title;
+    font-family: $serif;
+    margin: 100px 0px;
+    padding: 0px 20px;
+  }
+}
+
+h3.name_title_square{
+  font-family: $serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+.square_vertical_center{
+  margin-top: 75px;
+}

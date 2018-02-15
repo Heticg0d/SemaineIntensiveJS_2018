@@ -19,11 +19,15 @@ function myFunctionCoussin()
 		}
 	}
 
-	var realInput=document.getElementById("baby_input").value /*nous allons faire de l'input un input traitable*/
+	var realInput=document.getElementById("baby_input").value
+	if (realInput=="")
+	{
+		myFunctionCoussin();
+	} 											/*nous allons faire de l'input un input traitable*/
 	let alph = "abcdefghijklmnopqrstuvwxyz -'"
 	let aLPH = "ABCDEFGHIJKLMNOPQRSTUVWXYZ -'"
-	let input=""
-	let input1=""
+	let input=	""
+	let input1=	""
 	for (let i=0; i<realInput.length; i++)
 	{
 		for (let j=0; j<29; j++)
@@ -257,6 +261,13 @@ function myFunctionCoussin()
 			document.getElementById('coussin').appendChild(img);
 		}
 	}
-	/*ajout de la main du bébé*/
-	
+	/*ajout du module like*/
+	var container = document.getElementById("fb_container")
+	while (container.childElementCount > 0)
+	{
+		var divHaut = document.getElementById("fb_container"); 
+		var divInterne = document.getElementById("fb_like"); 
+		var func = divHaut.removeChild(divInterne);
+	}
+	document.getElementById('fb_container').innerHTML += '<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdoucedepo.officiel%2F&width=220&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="220" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>';	
 }

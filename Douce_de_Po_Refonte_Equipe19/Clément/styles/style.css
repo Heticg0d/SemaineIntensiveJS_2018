@@ -232,21 +232,35 @@ footer {
   font-size: 1.6em;
   padding: 16px 32px; }
 
+body.history_page {
+  background-color: #eae7e7; }
+
 .history_top_content {
-  background: url("../images/baby_background.png") no-repeat;
+  width: 100%;
+  height: 550px;
+  background: url("../images/history/baby_background.png") no-repeat;
   background-size: cover; }
-  .history_top_content h1 {
-    font-family: "Sacramento", cursive;
-    font-size: 9em;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center; }
-  .history_top_content h2 {
-    text-align: center;
-    font-size: 4em;
-    font-family: "Sacramento", cursive;
-    margin: 100px 0px;
-    padding: 100px 0px 0px 20px; }
+
+.history_top_content h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 9em;
+  margin-top: 220px;
+  margin-bottom: 100px;
+  text-align: center; }
+
+h1.title_instagram {
+  font-family: "Sacramento", cursive;
+  font-size: 9em;
+  text-align: center;
+  margin-top: 60px; }
+
+p.history_description {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Nunito", sans-serif;
+  margin: 0px 0px;
+  padding: 100px 0px 0px 20px;
+  font-size: 2.4em; }
 
 h3.name_title_square {
   font-family: "Sacramento", cursive;
@@ -255,5 +269,22 @@ h3.name_title_square {
 
 .square_vertical_center {
   margin-top: 75px; }
+
+.transition_element {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(#ecd1d1, #eae7e7); }
+
+.transition_element #title {
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  padding-top: 2em;
+  font-size: 3em; }
+
+.history_top_content img {
+  margin-top: 120px; }
+
+.flux_instagram {
+  padding-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */

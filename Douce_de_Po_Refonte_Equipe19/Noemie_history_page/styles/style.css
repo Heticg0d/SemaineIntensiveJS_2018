@@ -1,12 +1,69 @@
-
 html{
   font-size: 62,5%
+}
+
+header{
+  width:100%;
+  background-color:#ece1e1;
+}
+
+body{
+  background-color: #eae7e7;
+}
+
+.petite-histoire{
+  width: 100%;
+  height: 600px;
+  background: url('../images/baby_background.png') no-repeat;
+  background-size: cover;
+}
+
+.absolute #title{
+  text-align: center;
+  padding-top: 120px;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5em;
+}
+
+.icone{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 242px;
+  margin-right: 242px;
+  margin-top: 60px;
+  font-family: 'Open sans', cursive;
+  text-align: center;
+  font-size:1.3em;
+
+}
+.icon{
+  width:42%;
+}
+
+.cut-element{
+  width:100%;
+  height:200px;
+  background-image: linear-gradient(#ecd1d1, #eae7e7);
+}
+
+.logo-insta{
+  width:3%;
+  position: absolute;
+  top: 640px;
+  right: 43.5em;
+}
+.cut-element #title{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  padding-top: 2em;
+  font-size: 3em;
 }
 
 .container{
   width: 90%;
   margin : 0px auto;
-
+  background-color: #eae7e7;
 }
 .float-center{
   width: 40px;
@@ -38,7 +95,7 @@ html{
 .creation p{
   font-family: 'Open Sans', cursive;
   margin-top: 10em;
-  padding-left: 100px;
+  margin-left: 400px;
 }
 
 .clearBoth{
@@ -47,13 +104,13 @@ html{
 
 .selection{
   margin-top: 100px;
-  margin-bottom: 90px;
 }
 
 .selection p{
   float: left;
   width: 775px;
   font-family: 'Open sans', cursive;
+  margin-bottom: 90px;
 }
 
 .selection h2 {
@@ -66,4 +123,6 @@ html{
   text-align: center;
   float: right;
   padding: 20px;
+  margin-bottom: 90px;
+  margin-right: 60px;
 }

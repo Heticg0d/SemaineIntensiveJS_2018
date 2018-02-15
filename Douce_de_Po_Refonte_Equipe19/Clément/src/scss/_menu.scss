@@ -1,7 +1,7 @@
 // @Author: Clem
 // @Date:   2018-02-13T12:30:37+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-14T16:39:12+01:00
+// @Last modified time: 2018-02-15T12:24:40+01:00
 
 .menu_logo_doucedepo{
   li{
@@ -12,14 +12,24 @@
 .menu {
     padding: 2% 0%;
     margin: 0 auto;
+  ul{
+    border-radius: 3px;
+  }
   li{
     a{
       font-size: $text-size-main;
       color: black;
-
-      &:hover{
-        color: inherit;
-      }
     }
   }
+}
+
+.button_bag{
+  border: 1px solid $third-color;
+  border-radius: 30px;
+  padding: 0px 10px;
+  background-color: $third-color;
+}
+
+span{
+  color: white;
 }

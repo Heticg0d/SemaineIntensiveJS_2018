@@ -18,18 +18,21 @@ body {
 
 .button {
   font-size: 1.5em;
-  border: 1px solid #98cac9;
+  border: 1px solid #668aa3;
   border-radius: 50px;
-  background-color: #98cac9;
+  background-color: #668aa3;
   padding: 10px 20px;
   color: white;
   margin: 30% auto 0% auto; }
   .button:hover {
-    border: 1px solid #98cac9;
-    color: #98cac9;
+    border: 1px solid #668aa3;
+    color: #668aa3;
     background-color: white; }
 
 a {
+  color: inherit; }
+
+a:hover {
   color: inherit; }
 
 hr {
@@ -44,39 +47,72 @@ hr {
 .menu {
   padding: 2% 0%;
   margin: 0 auto; }
+  .menu ul {
+    border-radius: 3px; }
   .menu li a {
     font-size: 1.5em;
     color: black; }
-    .menu li a:hover {
-      color: inherit; }
 
-.footer_bar_top h3 {
-  font-family: "Sacramento", cursive;
-  font-size: 4em;
-  margin-top: 30%;
-  background-color: #fde5ea; }
+.button_bag {
+  border: 1px solid #f268a8;
+  border-radius: 30px;
+  padding: 0px 10px;
+  background-color: #f268a8; }
 
-.footer_bar_content li {
-  font-size: 1.5em;
-  list-style: none; }
-.footer_bar_content label {
-  font-size: 1.5em; }
-.footer_bar_content input {
-  height: 30px;
-  border: 1px solid #fde5ea; }
+span {
+  color: white; }
+
+footer {
+  position: relative; }
+
+.footer_bar_top {
+  background-color: #fde5ea;
+  margin-top: 5%; }
+  .footer_bar_top h3 {
+    font-family: "Sacramento", cursive;
+    font-size: 4em;
+    margin-top: 8%; }
+  .footer_bar_top li {
+    font-size: 1.5em;
+    list-style: none; }
+  .footer_bar_top label {
+    font-size: 1.5em; }
+  .footer_bar_top input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid #fde5ea;
+    font-size: 1.5em; }
+  .footer_bar_top button {
+    font-size: 1.5em;
+    border: 1px solid #f268a8;
+    border-radius: 50px;
+    background-color: #f268a8;
+    padding: 10px 20px;
+    color: white; }
 
 .footer_socialnetwork {
-  display: inline-block; }
+  display: inline-block;
+  width: 15%;
+  margin-top: 10px;
+  padding-right: 5%; }
 
 .footer_bottom_info {
   margin-top: 5%;
   font-size: 1em; }
 
+.footer_arrow_up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 3%; }
+
 .relative {
   position: relative; }
 
 .absolute {
-  position: absolute; }
+  position: absolute;
+  top: 175px;
+  left: 525px; }
 
 .article_product .article_product_content {
   margin-top: 50px; }
@@ -122,5 +158,79 @@ hr {
 .article_flux_instagram .insta_hover:hover {
   transform: scale(1.1);
   transition: all 0.5s; }
+
+.product_selector {
+  position: fixed; }
+  .product_selector h1 {
+    font-size: 4em;
+    font-family: "Sacramento", cursive; }
+  .product_selector ul {
+    list-style: none; }
+    .product_selector ul li {
+      font-size: 1.5em;
+      opacity: 0.5; }
+
+.product_item {
+  position: relative; }
+  .product_item img {
+    margin-top: 20%; }
+  .product_item p {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 0.7;
+    margin-top: 5%; }
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.product_item:hover .image {
+  opacity: 0.3; }
+
+.product_item:hover .middle {
+  opacity: 1; }
+
+.text {
+  background-color: #fde5ea;
+  color: black;
+  font-size: 1.6em;
+  padding: 16px 32px; }
+
+.history_top_content {
+  background: url("../images/baby_background.png") no-repeat;
+  background-size: cover; }
+  .history_top_content h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 9em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center; }
+  .history_top_content h2 {
+    text-align: center;
+    font-size: 4em;
+    font-family: "Sacramento", cursive;
+    margin: 100px 0px;
+    padding: 0px 20px; }
+
+h3.name_title_square {
+  font-family: "Sacramento", cursive;
+  font-size: 4em;
+  text-align: center; }
+
+.square_vertical_center {
+  margin-top: 75px; }
 
 /*# sourceMappingURL=style.css.map */

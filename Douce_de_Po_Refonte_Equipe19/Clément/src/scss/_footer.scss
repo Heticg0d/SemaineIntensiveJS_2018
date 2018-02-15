@@ -1,18 +1,20 @@
 // @Author: Clem
 // @Date:   2018-02-13T21:27:19+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-13T22:26:22+01:00
+// @Last modified time: 2018-02-15T10:50:18+01:00
+
+footer{
+  position: relative;
+}
 
 .footer_bar_top{
+  background-color: $primary-color;
+  margin-top: 5%;
   h3{
     font-family: $serif;
     font-size: $text-size-title;
-    margin-top: 30%;
-    background-color: #fde5ea;
+    margin-top: 8%;
   }
-}
-
-.footer_bar_content{
   li{
     font-size: $text-size-main;
     list-style: none;
@@ -21,16 +23,36 @@
     font-size: $text-size-main;
   }
   input{
+    width: 350px;
     height: 30px;
     border: 1px solid $primary-color;
+    font-size: $text-size-main;
+  }
+  button{
+    font-size: $text-size-main;
+    border: 1px solid #f268a8;
+    border-radius: 50px;
+    background-color: #f268a8;
+    padding: 10px 20px;
+    color: white;
   }
 }
 
 .footer_socialnetwork{
   display: inline-block;
+  width: 15%;
+  margin-top: 10px;
+  padding-right: 5%;
 }
 
 .footer_bottom_info{
   margin-top: 5%;
   font-size: 1em;
+}
+
+.footer_arrow_up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 3%;
 }

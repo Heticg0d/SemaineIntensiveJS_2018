@@ -1,7 +1,15 @@
 // @Author: Clem
 // @Date:   2018-02-13T12:30:37+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-15T18:05:21+01:00
+// @Last modified time: 2018-02-15T19:37:14+01:00
+
+nav{
+  background-color: white;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: 30000;
+}
 
 .menu_logo_doucedepo{
   li{
@@ -11,7 +19,7 @@
 
 .menu {
     padding: 2% 0%;
-    margin: 0 auto;
+    margin: 0;
   ul{
     border-radius: 3px;
   }

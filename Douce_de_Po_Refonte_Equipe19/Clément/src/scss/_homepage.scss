@@ -1,7 +1,7 @@
 // @Author: Clem
 // @Date:   2018-02-13T11:41:04+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-15T15:31:45+01:00
+// @Last modified time: 2018-02-15T19:55:58+01:00
 
 .relative{
   position: relative;
@@ -75,4 +75,20 @@
     transform: scale(1.1);
     transition: all 0.5s;
   }
+}
+
+
+
+//media queries
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  menu{
+    display: none;
+  }
+
 }

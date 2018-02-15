@@ -41,12 +41,23 @@ hr {
   margin-bottom: 2%;
   background-color: black; }
 
+.drilldown a {
+  padding: 0.7rem 1rem;
+  background: none; }
+
+nav {
+  background-color: white;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: 30000; }
+
 .menu_logo_doucedepo li {
   list-style: none; }
 
 .menu {
   padding: 2% 0%;
-  margin: 0 auto; }
+  margin: 0; }
   .menu ul {
     border-radius: 3px; }
   .menu li a {
@@ -168,6 +179,9 @@ footer {
   transform: scale(1.1);
   transition: all 0.5s; }
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  menu {
+    display: none; } }
 .product_selector {
   position: fixed; }
   .product_selector h1 {

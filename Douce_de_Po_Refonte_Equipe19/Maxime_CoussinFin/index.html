@@ -5,20 +5,26 @@
     <title>Titre de mon site</title>
     <meta name="description" content="Description de ma page">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
-  	<div id="coussin"> <!-- il s'agit de la div ou va d'abord s'afficher l'image du coussin, puis sa personnalisation --> 
-		<!--<p if="facebook"> Rejoignez nous sur fb!</p>   -->
-      <!--<img src="images/bebe_coussin.jpg" id="hidden">-->
+  	<div id="container">
+    <div id="coussin">
       <div id="hand"> <img src="images/baby_hand.png"> </div>
       <div id="cale_haut"> </div>
       <div id="cale_gauche"> </div>
       <div id="cale_droite"> </div> <!-- ici exactement sera inséré le prénom, en Nlx50px-->   	
-		  <h5> Pour <input type="text" placeholder="mon bout de choux" id="baby_input">
-    	  <button onclick="myFunctionCoussin()"> que j'aime </button> (30 charactères maximum*) </br>
-        *: apostrophes, tirets et espaces inclus. Faites de ce coussin le vôtre !
+		  <h5> Pour <input type="text" placeholder="mon bout de choux" id="baby_input"
+        onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click()" autofocus>
+    	  <button onclick="myFunctionCoussin()" id="btnSearch"> Essayer </button> (30 charactères maximum*) </br>
+        *: apostrophes, tirets et espaces inclus. Faites de ce coussin le sien !
    	  </h5>	
     </div>
-  <script type="text/javascript" src="script/app.js"></script>
+  </div>
+    <center id="fb_container">
+      <div id="fb_like">
+      </div>
+    </center>
+    <script type="text/javascript" src="script/app.js"></script>
   </body>
 </html>

@@ -1,3 +1,15 @@
+#btnSearch
+{
+	/*display: none;*/
+}
+#container
+{
+	background: linear-gradient(rgba(0, 150, 200, 0.001), white);
+}
+#fb_container
+{
+	margin-top:10px;
+}
 #hand
 {
 	margin-left: 250px;
@@ -62,14 +74,12 @@ body
 {
 	margin:0 auto;
 	background-image:url('../images/coussin_vide.png');
-	
 	background-size: 650px;
 	min-width:650px;
 	min-height:400px;
 	max-width:650px;
 	max-height:400px;
 	color: red;
-	border: 3px solid black;
 	position:relative;
 	text-align:center;
 }
@@ -77,8 +87,11 @@ body
 /*# sourceMappingURL=style.css.map */
 h5
 {
+	margin-left: -60px;
+	font-size: 80%;
+	font-family: 'Open Sans', sans-serif;
 	position:absolute;
 	bottom:-10px;
 	left: 25%;
-	color: red;
+	color: #555555;
 }

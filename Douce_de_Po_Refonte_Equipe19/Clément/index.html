@@ -7,17 +7,22 @@
     <link rel="icon" type="image/png" href="images/douce_de_po_icon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
     <link rel="stylesheet" href="vendor/foundation.css">
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
   <header>
-    <nav class="" id="anchor_top_arrow">
-      <div class="grid-x">
+    <nav id="anchor_top_arrow">
+      <div id="hamburger">
+        <a href="javascript:hamburger_click()">
+          <img id="hamburger.img" src="images/hamburger.png" width="10%" alt="">
+        </a>
+      </div>
+      <div id="mdr" class="grid-x">
         <div class="cell medium-12 large-12">
-          <div class="menu_logo_doucedepo">
-            <li class="float-left"><a href="#"><img src="images/logo_douce_de_po_fee.png" alt="" width="60%"></a></li>
+          <div class="menu_logo_doucedepo float-left">
+            <li><a href="#"><img id="menu_logo_doucedepo" src="images/logo_douce_de_po_fee.png" alt="" width="60%"></a></li>
           </div>
           <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
             <li class="float-center"><a href="#">Accueil</a></li>
@@ -85,18 +90,17 @@
               <div class="absolute">
                 <h1><b>Des accessoires pour bébé,<br> personnalisables et Made in France</b></h1>
               </div>
-                <img class="mySlides float-center" src="images/carousel_artisanale_1.png">
+                <img class="mySlides float-center" src="images/carousel_artisanale_1.png" alt="#">
               </div>
-              <img class="mySlides float-center" src="images/carousel_artisanale_3.png">
-              <img class="mySlides float-center" src="images/carousel_artisanale_2.png">
+              <img class="mySlides float-center" src="images/carousel_artisanale_3.png" alt="#">
+              <img class="mySlides float-center" src="images/carousel_artisanale_2.png" alt="#">
           </div>
           <div class="button_width">
-            <p class="button"><a href="pages/historypage.html"> La petite histoire..</p>
+            <p class="button"><a href="pages/historypage.html"> La petite histoire..</a></p>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
     <article class="article_product">
         <h3>Nos mamans ont aimé ...</h3>
@@ -164,6 +168,7 @@
         <div class="button_width">
           <p class="button">Suivez nous désormais</p>
         </div>
+      </div>
     </article>
   </main>
     <footer>
@@ -224,11 +229,11 @@
       </a>
     </div>
     </footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="vendor/what-input.js"></script>
     <script src="vendor/foundation.js"></script>
     <script>$(document).foundation();</script>
-    <script type="text/javascript" src="script/app.js"></script>
+    <script src="script/app.js"></script>
   </body>
 </html>

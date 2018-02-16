@@ -1,7 +1,7 @@
 // @Author: Clem
 // @Date:   2018-02-13T11:40:41+01:00
 // @Last modified by:   Clem
-// @Last modified time: 2018-02-15T19:49:26+01:00
+// @Last modified time: 2018-02-15T21:53:21+01:00
 * {
   box-sizing: border-box;
 }
@@ -13,6 +13,10 @@ html{
 body{
  background-color: white;
  font-family: $sans-serif;
+}
+
+main{
+  padding-top: 100px;
 }
 
 .container{

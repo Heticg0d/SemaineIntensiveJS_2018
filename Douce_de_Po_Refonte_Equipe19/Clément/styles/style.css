@@ -8,6 +8,9 @@ body {
   background-color: white;
   font-family: "Nunito", sans-serif; }
 
+main {
+  padding-top: 100px; }
+
 .container {
   width: 90%;
   margin: 0px auto; }
@@ -50,7 +53,7 @@ nav {
   position: fixed;
   left: 0px;
   right: 0px;
-  z-index: 30000; }
+  z-index: 999; }
 
 .menu_logo_doucedepo li {
   list-style: none; }
@@ -60,15 +63,19 @@ nav {
   margin: 0; }
   .menu ul {
     border-radius: 3px; }
-  .menu li a {
-    font-size: 1.5em;
-    color: black; }
+  .menu li {
+    z-index: 1000; }
+    .menu li a {
+      font-size: 1.5em;
+      color: black;
+      z-index: 1000; }
 
 .button_bag {
   border: 1px solid #f268a8;
   border-radius: 30px;
   padding: 0px 10px;
-  background-color: #f268a8; }
+  background-color: #f268a8;
+  color: white; }
 
 .button_account {
   border: 1px solid #668aa3;
@@ -79,6 +86,18 @@ nav {
 span {
   color: white; }
 
+#hamburger {
+  display: none;
+  width: 100%;
+  height: 50px;
+  text-align: center; }
+
+@media screen and (max-width: 1000px) {
+  #mdr {
+    display: none; }
+
+  #hamburger {
+    display: block; } }
 footer {
   position: relative; }
 
@@ -179,9 +198,18 @@ footer {
   transform: scale(1.1);
   transition: all 0.5s; }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  menu {
-    display: none; } }
+@media screen and (max-width: 1000px) {
+  .absolute {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 50px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .absolute {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 100px; } }
 .product_selector {
   position: fixed; }
   .product_selector h1 {

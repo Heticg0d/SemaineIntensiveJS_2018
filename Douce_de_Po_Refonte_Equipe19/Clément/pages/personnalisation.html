@@ -19,7 +19,7 @@
           <img id="hamburger.img" src="../images/hamburger.png" width="10%" alt="">
         </a>
       </div>
-      <div id="menu_burger" class="grid-x">
+      <div id="menu_hamburger" class="grid-x">
         <div class="cell medium-12 large-12">
           <div class="menu_logo_doucedepo float-left">
             <li><a href="../index.html"><img id="menu_logo_doucedepo" src="../images/logo_douce_de_po_fee.png" alt="#" width="60%"></a></li>
@@ -81,85 +81,25 @@
       </div>
     </div>
   </header>
-
   <main>
-    <div class="product_content">
-      <div class="container">
-        <div class="grid-x">
-          <div class="cell medium-3 large-3">
-            <div class="product_selector">
-              <ul>
-                <li><h1><a href="#" data-filter="*">Les collections</a></h1></li>
-                <li><a data-filter=".paysdesreves" href="#">Aux Pays des Rêves</a></li>
-                <li><a data-filter=".milleetoiles" href="#">Mille Etoiles</a></li>
-                <li><a data-filter=".doucebrise" href="#">Douce Brise</a></li>
-                <li><a data-filter=".baladesenforet" href="#">Balades en Forêt</a></li>
-                <li><a data-filter=".boutonor" href="#">Bouton d'Or</a></li>
-                <li><a data-filter=".petitmoussaillon" href="#">Petit Moussaillon</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="cell medium-4 large-4">
-            <div class="product_item">
-              <img src="../images/milleetoiles/attachestetinesmilleetoiles.png" class="float-center image" alt="">
-              <div class="middle">
-                <div class="text"><a href="productsheet.html">
-                  Agrandir
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="cell medium-5 large-5">
-          <p class="title_product">Attache-tétine <br>Au pays des rêves</p>
-          <br>
-          <p class="button" id="product_button1"><a href="#">10 € / Ajouter au panier</a></p>
-        </div>
-      </div>
-
-      <div class="large-12 large-offset-3 column">
-        <div class="cell medium-10 large-10 separation_bar_1">
-        </div>
-      </div>
-      <div class="grid-x">
-        <div class="large-12 large-offset-3 column">
-          <div class="cell medium-9 large-9">
-            <p class="title_description_product">Description du produit</p>
-          </div>
-          <div class="cell medium-9 large-9">
-            <p class="description_product">
-              Fini les tétines qui tombent et qui traînent par terre grâce à l’attache-tétine. <br>
-              La tétine restera accrochée à la tenue de bébé et il pourra l’avoir à sa disposition à tout moment.<br>
-              Cet accessoire à la fois pratique et ludique sera le meilleur allié de bébé. <br><br>
-              Vendu à l’unité (vue de face et de dos sur la photo)
-            </p>
-          </div>
-          <div class="cell medium-9 large-9">
-            <p class="title_description_product">Informations utiles</p>
-          </div>
-          <div class="cell medium-9 large-9">
-            <p class="description_product">
-              100% coton <br>
-              Lavage en machine à 30° <br>
-              (Attention protéger la boucle en métallors du passage en machine :sac lingerie) <br>
-              Repassage à chaleur moyenne ou sécher à l’air libre
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="large-12 large-offset-3 column">
-        <div class="cell medium-10 large-10 separation_bar_2 ">
-        </div>
-        <p class="products_other"> Autres accessoires faits pour votre enfant... </p>
-      </div>
-
-      <div class="large-12 large-offset-3 column">
-        <p class="button" id="product_button2"> <a href="productpage.html">Voir plus de produits</p>
-        </div>
-      </div>
+    <div id="container">
+    <div id="coussin">
+      <div id="hand"> <img src="../images/baby_hand.png"> </div>
+      <div id="cale_haut"> </div>
+      <div id="cale_gauche"> </div>
+      <div id="cale_droite"> </div> <!-- ici exactement sera inséré le prénom, en Nlx50px-->
+      <h5> Pour <input type="text" placeholder="mon bout de choux" id="baby_input"
+        onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click()" autofocus>
+        <button onclick="myFunctionCoussin()" id="btnSearch"> Essayer </button> (30 charactères maximum*) </br>
+        *: apostrophes, tirets et espaces inclus. Faites de ce coussin le sien !
+      </h5>
     </div>
+  </div>
+    <center id="fb_container">
+      <div id="fb_like">
+      </div>
+    </center>
   </main>
-
   <footer>
     <div class="footer_bar_top">
       <div class="container">

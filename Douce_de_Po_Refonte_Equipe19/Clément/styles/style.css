@@ -1,3 +1,12 @@
+/**
+ * @Author: Clem
+ * @Date:   2018-02-16T02:41:31+01:00
+ * @Last modified by:   Clem
+ * @Last modified time: 2018-02-16T04:49:51+01:00
+ */
+
+
+
 * {
   box-sizing: border-box; }
 
@@ -16,8 +25,9 @@ main {
   margin: 0px auto; }
 
 .button_width {
-  width: 200px;
-  margin: auto; }
+  width: 250px;
+  margin: auto;
+  text-align: center; }
 
 .button {
   font-size: 1.5em;
@@ -429,4 +439,89 @@ img.other_products {
   width: 20%;
   display: flex; }
 
+
+  #fb_container
+  {
+  	margin-top:10px;
+  }
+  #hand
+  {
+  	margin-left: 250px;
+  	margin-top: -80px;
+  	float:left;
+  	transition-property: transform;
+      transition-duration: 2s;
+      transition-timing-function: ease;
+      visibility: none;
+      clear:both;
+      z-index: 2;
+  }
+
+  #hand:hover
+  {
+  	transform: translateX(200px);
+  }
+
+  #letter
+  {
+  	 opacity: 0.7;
+  	 z-index: 1;
+
+  }
+  #facebook
+  {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  #cale_haut
+  {
+  	/*background-color: red;*/
+  	opacity: 0.8;
+  	width: 300px;
+  	height: 130px;
+  }
+  #cale_gauche
+  {
+  	clear: both;
+  	float: left;
+  	/*background-color: red;*/
+  	opacity: 0.8;
+  	width: 55px;
+  	height: 130px;
+  }
+  #cale_droite
+  {
+  	float:right;
+  /*	background-color: red;*/
+  	opacity: 0.8;
+  	width: 55px;
+  	height: 130px;
+  }
+  
+  #coussin
+  {
+  	margin:0 auto;
+  	background-image:url('../images/coussin_vide.png');
+  	background-size: 650px;
+  	min-width:650px;
+  	min-height:400px;
+  	max-width:650px;
+  	max-height:400px;
+  	color: red;
+  	position:relative;
+  	text-align:center;
+  }
+
+
+  #coussin h5
+  {
+  	margin-left: -60px;
+  	font-size: 80%;
+  	font-family: 'Open Sans', sans-serif;
+  	position:absolute;
+  	bottom:-10px;
+  	left: 25%;
+  	color: #555555;
+  }
 /*# sourceMappingURL=style.css.map */

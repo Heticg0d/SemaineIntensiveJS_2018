@@ -8,23 +8,25 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
-  	<div id="container">
-    <div id="coussin">
-      <div id="hand"> <img src="images/baby_hand.png"> </div>
-      <div id="cale_haut"> </div>
-      <div id="cale_gauche"> </div>
-      <div id="cale_droite"> </div> <!-- ici exactement sera inséré le prénom, en Nlx50px-->   	
-		  <h5> Pour <input type="text" placeholder="mon bout de choux" id="baby_input"
-        onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click()" autofocus>
-    	  <button onclick="myFunctionCoussin()" id="btnSearch"> Essayer </button> (30 charactères maximum*) </br>
-        *: apostrophes, tirets et espaces inclus. Faites de ce coussin le sien !
-   	  </h5>	
-    </div>
-  </div>
-    <center id="fb_container">
-      <div id="fb_like">
+    <main>
+      <div id="container">
+      <div id="coussin">
+        <div id="hand"> <img src="images/baby_hand.png"> </div>
+        <div id="cale_haut"> </div>
+        <div id="cale_gauche"> </div>
+        <div id="cale_droite"> </div> <!-- ici exactement sera inséré le prénom, en Nlx50px-->
+  		  <h5> Pour <input type="text" placeholder="mon bout de choux" id="baby_input"
+          onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click()" autofocus>
+      	  <button onclick="myFunctionCoussin()" id="btnSearch"> Essayer </button> (30 charactères maximum*) </br>
+          *: apostrophes, tirets et espaces inclus. Faites de ce coussin le sien !
+     	  </h5>
       </div>
-    </center>
+    </div>
+      <center id="fb_container">
+        <div id="fb_like">
+        </div>
+      </center>
+    </main>
     <script type="text/javascript" src="script/app.js"></script>
   </body>
 </html>
